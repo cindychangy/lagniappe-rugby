@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  line-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: 'Open Sans';
+}
+
+a {
+  text-decoration:none;
+  color: inherit;
+}
+
+.btn {
+  background: #2a7de2;
+  padding: 18px 26px;
+  border-radius: 40px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,.125);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
