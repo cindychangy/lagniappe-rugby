@@ -1,0 +1,21 @@
+.team {
+  // background: $bg-gray;
+  background: #f6f9fc;
+  padding: 2em 6em;
+  height: 500px;
+
+  &__roster {
+
+  }
+  img {
+  border-radius: 20px;
+  width: 150px;
+  }
+}
+
+
+
+tr, td {
+  text-align: left;
+  padding: 1em 1em 1em 0;
+}

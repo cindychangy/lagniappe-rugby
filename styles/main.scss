@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,600');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,700');
 
 @import 'utils/variables.scss';
 @import 'utils/mixins.scss';
@@ -9,5 +10,7 @@
 @import 'base/type.scss';
 @import 'components/base.scss';
 @import 'components/navigation.scss';
-@import 'layout/home.scss';
+@import 'layout/hero.scss';
+@import 'layout/intro.scss';
+@import 'layout/team.scss';
 

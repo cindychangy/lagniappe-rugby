@@ -1,0 +1,36 @@
+.intro {
+  position: relative;
+  &__text {
+    padding: 2em;
+    @include breakpoint(medium){
+      padding: 6em;
+    }
+  }
+
+  &__photo {
+    background: $pink;
+    background: url('../../img/intro-bg.jpg') no-repeat center;
+    background-size: cover;
+    padding: 4em;
+    height: 300px;
+     @include breakpoint(large){
+      height: auto;
+    }
+
+    p {
+      color: #fff;
+      position: absolute;
+      bottom: 50px;
+      font-size: 1.3em;
+      font-family: 'Oswald';
+      background: $pink;
+      padding: 0.5em 1em;
+      font-weight: 400;
+    }
+
+    span {
+      display: block;
+      margin-top: 5px;
+    }
+  }
+}
